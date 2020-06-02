@@ -368,9 +368,9 @@ class GitFlow extends Component {
         return (
             <GitFlowElm>
                 <GlobalActions>
-                    <Button onClick={this.props.onNewHotFix}>New Hot Fix</Button>
-                    <Button onClick={this.props.onNewRelease}>New Release</Button>
-                    <Button onClick={this.props.onNewFeature}>New Feature</Button>
+                    <Button onClick={this.props.onNewHotFix}>Nova Hot Fix</Button>
+                    <Button onClick={this.props.onNewRelease}>Nova Release</Button>
+                    <Button onClick={this.props.onNewFeature}>Nova Feature</Button>
                 </GlobalActions>
                 <ProjectElm>
                     {this.renderBranchHeaders(param)}
